@@ -15,7 +15,7 @@
 
 ### 二十世纪六七十年代
 
-​		基于逻辑表示的“符号主义”（Symbolism）学习技术蓬勃发展。P. Winston的结构学习系统，R. S. Michalski的基于逻辑的归纳学习系统，以及E. B. Hunt的概念学习系统。
+基于逻辑表示的“符号主义”（Symbolism）学习技术蓬勃发展。P. Winston的结构学习系统，R. S. Michalski的基于逻辑的归纳学习系统，以及E. B. Hunt的概念学习系统。
 
 ### 二十世纪八十年代至九十年代中期
 
@@ -24,15 +24,15 @@
 ​		类比学习（通过观察和发现学习）
 ​		归纳学习（从样例中学习）
 
-​	二十世纪八十年代是机器学习成为一个独立的学科领域，各种机器学习技术百花初绽的时期。连接主义学习的最大局限是“试错性”，学习过程涉及大量参数，而参数的设置缺乏理论指导，主要靠手工“调参”，参数调节失之毫厘，学习结果可能谬以千里。
+二十世纪八十年代是机器学习成为一个独立的学科领域，各种机器学习技术百花初绽的时期。连接主义学习的最大局限是“试错性”，学习过程涉及大量参数，而参数的设置缺乏理论指导，主要靠手工“调参”，参数调节失之毫厘，学习结果可能谬以千里。
 
 ### 二十世纪九十年代中期
 
-​		统计学习（Statistical Learning），支持向量机（Support Vector Machine，SVM），核方法（Kernel Methods）。
+统计学习（Statistical Learning），支持向量机（Support Vector Machine，SVM），核方法（Kernel Methods）。
 
 ### 二十一世纪初至今
 
-​		深度学习（Deep Learning），深度学习兴起的原因有二：数据量大，机器计算能力强。
+深度学习（Deep Learning），深度学习兴起的原因有二：数据量大，机器计算能力强。
 
 ## 二、整体流程
 
@@ -48,40 +48,35 @@
 
 #### 文件读写（file_help）
 
-​			pd.read_csv( )
-​			pd.to_csv( )
+pd.read_csv( )
+pd.to_csv( )
 
 #### 数据库读写（db_help）
-
 
 
 ### （2）数据探索
 
 #### 查看数据整体信息
 
-​			data.shape
-​			data.info()
-​			data.head().append(data.tail())
-​			data.describe()
+data.shape
+data.info()
+data.head().append(data.tail())
+data.describe()
 
 #### 查看数据缺失情况
 
-​			含有缺失值的列的个数
-​				missing = missing[missing > 0]
-​			每个列的缺失比例
-​				data.isnull().sum()/data.isnull().count()
-​			可视化缺失情况
+含有缺失值的列的个数：missing = missing[missing > 0]
+每个列的缺失比例：data.isnull().sum()/data.isnull().count()
+可视化缺失情况
 
 #### 查看数据异常情况
 
 #### 查看样本标签分布情况
 
-​			查看连续性标签的情况
-​				data.describe()
-​			查看离散型标签的情况
-​				print(pd.Series(Y_data).value_counts())
-​			可视化标签分布情况
-​		特征类型分析
+查看连续性标签的情况：data.describe()
+查看离散型标签的情况：print(pd.Series(Y_data).value_counts())
+可视化标签分布情况
+特征类型分析
 
 #### 数字特征分析
 
@@ -256,39 +251,38 @@
 
 #### 聚类
 
-​			k均值聚类（K-means）
-​			层次聚类（Hierarchical clustering）
-​			DBSCAN
+k均值聚类（K-means）
+层次聚类（Hierarchical clustering）
+DBSCAN
 
-		#### 降维
+#### 降维
 
-​			线性判别分析（LinearDiscriminantAnalysis）
-​			主成分分析（PCA）
+线性判别分析（LinearDiscriminantAnalysis）
+主成分分析（PCA）
 
 ### （3）重点概念
-
-​		bagging
-​		boosting
-​		CART
-​		ID3
-​		C4.5
-​		sigmoid
-​		softmax
-​		bias
-​		variance
-​		accuracy
-​		precision
-​		recall
-​		f1-score
-​		roc
-​		auc
-​		ks
-​		tpr
-​		fpr
-​		mae
-​		mse
-​		rmse
-​		r²
-​		mape
-​		underfitting
-​		overfitting
+bagging
+boosting
+CART
+ID3
+C4.5
+sigmoid
+softmax
+bias
+variance
+accuracy
+precision
+recall
+f1-score
+roc
+auc
+ks
+tpr
+fpr
+mae
+mse
+rmse
+r²
+mape
+underfitting
+overfitting
