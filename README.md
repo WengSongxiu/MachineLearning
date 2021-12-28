@@ -206,10 +206,10 @@ data.describe()
 
 ### （7）模型部署
 
-	#### API
+#### API
 
-​			web service
-​			restful
+web service
+restful
 
 #### python脚本
 
