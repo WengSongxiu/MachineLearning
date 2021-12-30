@@ -169,7 +169,7 @@ data.describe()
 
 #### 评估方法
 
-​			a.交叉验证法
+交叉验证法
 ​				cross_val_score
 ​				cross_validate
 ​				KFold
