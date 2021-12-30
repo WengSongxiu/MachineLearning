@@ -261,28 +261,28 @@ DBSCAN
 主成分分析（PCA）
 
 ### （3）重点概念
-bagging
-boosting
-CART
-ID3
-C4.5
-sigmoid
-softmax
-bias
-variance
-accuracy
-precision
-recall
-f1-score
-roc
-auc
-ks
-tpr
-fpr
-mae
-mse
-rmse
-r²
-mape
-underfitting
-overfitting
+- bagging
+- boosting
+- CART
+- ID3
+- C4.5
+- sigmoid
+- softmax
+- bias
+- variance
+- accuracy
+- precision
+- recall
+- f1-score
+- roc
+- auc
+- ks
+- tpr
+- fpr
+- mae
+- mse
+- - rmse
+- r²
+- mape
+- underfitting
+- overfitting
