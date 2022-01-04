@@ -34,6 +34,8 @@
 
 深度学习（Deep Learning），深度学习兴起的原因有二：数据量大，机器计算能力强。
 
+![](https://github.com/WengSongxiu/MachineLearning/blob/master/image/ml.jpg)
+
 
 ## 二、整体流程
 
