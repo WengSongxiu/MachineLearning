@@ -6,6 +6,8 @@
 
 
 ## 一、整体流程
+机器学习项目的整体流程可以大致分为以下几个步骤：
+https://github.com/WengSongxiu/MachineLearning/blob/master/image/process.png
 
 ### （1）数据准备
 
