@@ -23,49 +23,77 @@
 - xml
 
 #### 文件读写（file_help）
-
-- pd.read_csv( )
-- pd.to_csv( )
-
+```
+pd.read_csv( )
+pd.to_csv( )
+```
 #### 数据库读写（db_help）
 
 
 ### （2）数据探索
 
 #### 查看数据整体信息
-
-- data.shape
-- data.info()
-- data.head().append(data.tail())
-- data.describe()
-
+```
+# 查看数据形状
+data.shape
+# 查看数据基本信息
+data.info()
+# 查看数据前5条+后5条
+data.head().append(data.tail())
+# 查看数据的统计情况
+data.describe()
+```
 #### 查看数据缺失情况
 
-- 含有缺失值的列的个数：missing = missing[missing > 0]
-- 每个列的缺失比例：data.isnull().sum()/data.isnull().count()
+- 含有缺失值的列的个数：
+```
+missing = missing[missing > 0]
+```
+- 每个列的缺失比例：
+```
+data.isnull().sum()/data.isnull().count()
+```
 - 可视化缺失情况
 
 #### 查看数据异常情况
 
 #### 查看样本标签分布情况
 
-- 查看连续性标签的情况：data.describe()
-- 查看离散型标签的情况：print(pd.Series(Y_data).value_counts())
+- 查看连续性标签的情况：
+```
+data.describe()
+```
+- 查看离散型标签的情况：
+```
+print(pd.Series(Y_data).value_counts())
+```
 - 可视化标签分布情况
 - 特征类型分析
 
 #### 数字特征分析
 
-- 获取数值型特征numerical_fea = data_train.select_dtypes(exclude=['object']).columns
+- 获取数值型特征
+```
+numerical_fea = data_train.select_dtypes(exclude=['object']).columns
+```
 - 数值离散型变量分析
-- 类别分布data_train['term'].value_counts()
-- 类别数data_train['term'].nunique()
+- 类别分布
+```
+data_train['term'].value_counts()
+```
+- 类别数
+```
+data_train['term'].nunique()
+```
 - 数值连续型变量分析
 - 每个数字特征的分布可视化
 - 相关性分析
 - 特征之间的相关性可视化
 #### 类型特征分析
-- 获取类别型特征category_fea = data_train.select_dtypes(include=['object']).columns
+- 获取类别型特征
+```
+category_fea = data_train.select_dtypes(include=['object']).columns
+```
 - 类别数统计
 - 类别特征分布情况
 
