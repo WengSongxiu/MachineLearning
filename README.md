@@ -266,7 +266,7 @@ category_fea = data_train.select_dtypes(include=['object']).columns
 - fpr
 - mae
 - mse
-- - rmse
+- rmse
 - r²
 - mape
 - underfitting
