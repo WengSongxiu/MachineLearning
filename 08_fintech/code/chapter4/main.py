@@ -34,7 +34,8 @@ def category_continue_separation(df,feature_names):
     if 'target' in feature_names:
         feature_names.remove('target')
     ##先判断类型，如果是int或float就直接作为连续变量
-    numerical_var = list(df[feature_names].select_dtypes(include=['int','float','int32','float32','int64','float64']).columns.values)
+    numerical_var = list(df[feature_names].select_dtypes(
+        include=['int','float','int32','float32','int64','float64']).columns.values)
     categorical_var = [x for x in feature_names if x not in numerical_var]
     return categorical_var,numerical_var
 def add_str(x):
