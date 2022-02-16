@@ -33,7 +33,7 @@
       <recent name="F:\03_github\MachineLearning\08_fintech\pratice\data\input" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.chapter05">
     <configuration name="chapter04" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pratice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -55,8 +55,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="chapter05" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pratice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/chapter05.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.chapter05" />
         <item itemvalue="Python.chapter04" />
       </list>
     </recent_temporary>
@@ -75,38 +97,46 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1537" height="113" key="GridCell.Tab.0.bottom" timestamp="1644909971319">
+    <state x="651" y="270" key="#Notifications" timestamp="1644991625796">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1537" height="113" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1644909971319" />
-    <state width="1537" height="113" key="GridCell.Tab.0.center" timestamp="1644909971319">
+    <state x="651" y="270" key="#Notifications/0.0.1536.816@0.0.1536.816" timestamp="1644991625796" />
+    <state width="1537" height="254" key="GridCell.Tab.0.bottom" timestamp="1644992036355">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1537" height="113" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1644909971319" />
-    <state width="1537" height="113" key="GridCell.Tab.0.left" timestamp="1644909971319">
+    <state width="1537" height="254" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1644992036355" />
+    <state width="1537" height="254" key="GridCell.Tab.0.center" timestamp="1644992036355">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1537" height="113" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1644909971319" />
-    <state width="1537" height="113" key="GridCell.Tab.0.right" timestamp="1644909971319">
+    <state width="1537" height="254" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1644992036355" />
+    <state width="1537" height="254" key="GridCell.Tab.0.left" timestamp="1644992036355">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1537" height="113" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1644909971319" />
-    <state width="1537" height="254" key="GridCell.Tab.1.bottom" timestamp="1644908426135">
+    <state width="1537" height="254" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1644992036355" />
+    <state width="1537" height="254" key="GridCell.Tab.0.right" timestamp="1644992036355">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1537" height="254" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1644908426135" />
-    <state width="1537" height="254" key="GridCell.Tab.1.center" timestamp="1644908426135">
+    <state width="1537" height="254" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1644992036355" />
+    <state width="1537" height="254" key="GridCell.Tab.1.bottom" timestamp="1644992038258">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1537" height="254" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1644908426135" />
-    <state width="1537" height="254" key="GridCell.Tab.1.left" timestamp="1644908426135">
+    <state width="1537" height="254" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1644992038258" />
+    <state width="1537" height="254" key="GridCell.Tab.1.center" timestamp="1644992038258">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1537" height="254" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1644908426135" />
-    <state width="1537" height="254" key="GridCell.Tab.1.right" timestamp="1644908426135">
+    <state width="1537" height="254" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1644992038258" />
+    <state width="1537" height="254" key="GridCell.Tab.1.left" timestamp="1644992038257">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1537" height="254" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1644908426135" />
+    <state width="1537" height="254" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1644992038257" />
+    <state width="1537" height="254" key="GridCell.Tab.1.right" timestamp="1644992038258">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1537" height="254" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1644992038258" />
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1644991336210">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1644991336210" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -115,6 +145,16 @@
           <url>file://$PROJECT_DIR$/core/chapter04.py</url>
           <line>157</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/chapter05.py</url>
+          <line>256</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/chapter05.py</url>
+          <line>264</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
