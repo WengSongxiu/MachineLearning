@@ -556,6 +556,7 @@ def disc_var_bin_map(x, bin_map):
 
     return new_x
 
+
 if __name__ == '__main__':
     
     path = 'D:/code/chapter6/'

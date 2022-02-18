@@ -234,3 +234,15 @@ if __name__ == '__main__':
     # 变量分布分析
     numerical_distribution(df, numerical_var, '../data/output/')
     categorical_distribution(df, categorical_var, '../data/output/')
+
+
+# 特殊字符定位
+char_list = [' ','?','@','#','$','/t','*',';','&']
+unknowns = {}
+df['policy_number']
+for i in list(df.columns):
+    if (df[i]).dtype == object:
+        j = np.sum(df[i] == "?")
+        unknowns[i] = j
+unknowns = pd.DataFrame.from_dict(unknowns, orient = 'index')
+print(unknowns)
